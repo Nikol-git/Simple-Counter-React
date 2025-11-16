@@ -1,4 +1,3 @@
-/* Full page container */
 .counter-container {
   display: flex;
   flex-direction: column;
@@ -6,11 +5,10 @@
   justify-content: center;
   min-height: 100vh;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #f5f7fa; /* soft light background */
+  background: #f5f7fa; 
   color: #333;
 }
 
-/* Number display */
 .count-display {
   font-size: 8rem;
   font-weight: 700;
@@ -19,19 +17,18 @@
   transition: all 0.2s ease;
 }
 
-/* Animate number on change */
 .count-display.changed {
   transform: scale(1.1);
   color: #ff6b6b;
 }
 
-/* Buttons container */
+
 .counter-buttons {
   display: flex;
   gap: 20px;
 }
 
-/* Button styling */
+
 .counter-button {
   padding: 15px 35px;
   font-size: 1.2rem;
@@ -43,7 +40,6 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Button colors - soft & aesthetic */
 .counter-button.increment {
   background-color: #6bcf8c;
   color: #fff;
@@ -59,13 +55,13 @@
   color: #fff;
 }
 
-/* Hover effect */
+
 .counter-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-/* Active effect */
+
 .counter-button:active {
   transform: scale(0.95);
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
